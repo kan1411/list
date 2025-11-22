@@ -48,7 +48,6 @@ void List_Display(List* list) {
         cout << "MSSV: " << p->info.mssv << "\n";
         cout << "Nam sinh: " << p->info.namSinh << "\n";
         cout << "GPA: " << p->info.gpa << "\n";
-        cout << "-----------------------------\n";
         p = p->link;
     }
 }
